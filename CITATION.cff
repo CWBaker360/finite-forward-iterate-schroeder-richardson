@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it using the metadata below."
 
 title: "Finite Forward-Iterate Schröder Approximation from Geometric Richardson Extrapolation: Reciprocal Filters and Exact Paired Remainders"
-
 type: article
 
 authors:
@@ -10,10 +9,8 @@ authors:
     given-names: "Wayne"
 
 version: "0.2.1"
-
 doi: "10.5281/zenodo.23122616"
-
-date-released: 2026-10-03
+date-released: "2026-10-03"
 
 abstract: >-
   This work develops a finite forward-iterate realization of geometric
@@ -24,16 +21,16 @@ abstract: >-
   sine/arcsine specialization associated with classical Chebyshev
   multiple-angle polynomials.
 
-license: "CC-BY-4.0"
+license: CC-BY-4.0
 
 repository-code: "https://github.com/CWBaker360/finite-forward-iterate-schroeder-richardson"
 
 keywords:
-  - Schröder equation
-  - Richardson extrapolation
-  - Koenigs linearization
-  - functional iteration
-  - composition operators
-  - reciprocal filters
-  - approximation theory
-  - Chebyshev polynomials
+  - "Schröder equation"
+  - "Richardson extrapolation"
+  - "Koenigs linearization"
+  - "functional iteration"
+  - "composition operators"
+  - "reciprocal filters"
+  - "approximation theory"
+  - "Chebyshev polynomials"
