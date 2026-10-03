@@ -56,7 +56,7 @@ v0.2.1 — September 2026
 
 ## Citation
 
-DOI: https://doi.org/10.5281/zenodo.23122616.
+DOI: https://doi.org/10.5281/zenodo.23122616
 
 ## Author
 
