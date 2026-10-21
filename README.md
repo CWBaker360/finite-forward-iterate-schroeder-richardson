@@ -50,6 +50,24 @@ variable.
 - `forward_iterate_schroeder_richardson_v0_2_1.pdf` — manuscript
 - `forward_iterate_schroeder_richardson_v0_2_1.tex` — LaTeX source
 
+## Exact symbolic verification
+
+An optional, independent exact-rational smoke test of the reciprocal-filter
+algebra is supplied at [`verification/verify_reciprocal_filters.py`](verification/verify_reciprocal_filters.py).
+
+Install SymPy (`python -m pip install sympy`), then run:
+
+```bash
+python verification/verify_reciprocal_filters.py
+```
+
+The script checks `ell_r(z) = z^r p_r(1/z)`, the filter zeros and normalization,
+geometric-node cancellation, and the first-surviving-mode factor for `m=3,5`
+and `0 <= r <= 5`. All 12 cases passed in the October 21, 2026 local
+SymPy run. This is **not** a computer-assisted proof of the complete paper or
+a certification of numerical floating-point error. The September v0.2.1
+manuscript is unchanged.
+
 ## Version
 
 v0.2.1 — September 2026
